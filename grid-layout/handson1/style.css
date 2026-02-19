@@ -20,13 +20,12 @@
   display: grid;
   width: 100%;
   max-width: 800px;
-  height: 700px;
+  height: 750px;
   margin: auto;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  border: 1px solid black;
+  box-shadow: 1px 1px 10px black;
   margin-top: 50px;
-  gap: 10px;
 }
 
 /* child styling */
@@ -147,6 +146,7 @@
   grid-column: 2/4;
   grid-row: 2/3;
   background-color: #fefffe;
+  padding-left: 10px;
 }
 
 .left{
